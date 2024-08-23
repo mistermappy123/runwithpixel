@@ -17,3 +17,15 @@ a {
     width: 150px;
     height: 150px;
 }
+
+#first_page {
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    background-color: yellow;
+    width: 100%;
+}
