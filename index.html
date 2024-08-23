@@ -7,11 +7,22 @@
     <body>
         
         <nav>
-            <img align= 'left' id='logo' src="husky.svg">
+            <img align= 'left' class='logo' src="husky.svg">
             <a href=""><div>About Us</div></a>
             <a href=""><div>Services</div></a>
             <a href=""><div>Photos & Testimonials</div></a>
-            <a href=""><div>About Us</div></a>
+            <a href="nav_pages/contactus.html"><div>Contact Us</div></a>
         </nav>
     </body>
+    <script src="emailsend.js"></script>
+            <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+            </script>
+            <script type="text/javascript">
+            (function(){
+                emailjs.init({
+                    publicKey: "4qB8ijubyIITVfEfs",
+                });
+            })();
+            </script>
 </html>

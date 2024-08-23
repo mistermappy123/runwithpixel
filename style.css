@@ -13,7 +13,7 @@ a {
     text-decoration-line: none;
 }
 
-#logo {
+.logo {
     width: 150px;
     height: 150px;
 }
